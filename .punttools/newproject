@@ -1,4 +1,4 @@
 #!/bin/bash
 mkdir -p $1
 cd $1
-cp ~/.puntconf/puntproject/templates/$2/* .
+cp -r ~/.puntconf/puntproject/templates/$2/* .
