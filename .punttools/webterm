@@ -1,0 +1,3 @@
+#!/bin/bash
+npm i gritty -g
+npx gritty --port 8000 --command "bash"
