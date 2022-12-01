@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/.puntconf/puntgo
+touch $2
+echo '#!/bin/bash' > $2
+echo "cd $1" >> $2

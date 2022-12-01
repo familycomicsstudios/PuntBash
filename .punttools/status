@@ -1,0 +1,6 @@
+#!/bin/bash
+whoami
+date
+git checkout
+ls
+~/.puntconf/status.sh

@@ -2,6 +2,12 @@ echo Copying folders and files...
 cp .puntrc ~
 cp -r .puntconf ~
 echo Adding to bashrc...
-echo '. .puntrc' >> ~/.bashrc
+echo '. ~/.puntrc' >> ~/.bashrc
 echo Installing dev tools...
 cp -r .punttools ~
+echo Making executable...
+cd ~/.punttools
+chmod +x *
+cd ~/.puntconf 
+chmod +x *
+echo Done!
