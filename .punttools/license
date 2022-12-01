@@ -1,0 +1,3 @@
+#!/bin/bash
+cp ~/.puntconf/licenses/$1 .
+mv $1 LICENSE.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+cp ~/.puntconf/newtemp/$1 .
+mv $1 $2
