@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR=$(pwd)
+OLDPATH=$PATH
+PATH=$DIR/.bvenv/bin

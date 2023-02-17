@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir .bvenv
+cd .bvenv
+mkdir bin
+cd ..
+pwd
+cp /bin/* .bvenv/bin/
+cp ~/.puntconf/bvenv/* .bvenv/bin/
+chmod +x .bvenv/bin/*
+echo Done. Use .bvenv/bin/activate to activate.
