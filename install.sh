@@ -16,6 +16,6 @@ cd ~/.punttools
 chmod +x *
 echo Adding configuration...
 cd ~/.puntconf 
-mkdir setgo
+mkdir puntgo
 chmod +x *
 echo Done!
