@@ -1,7 +1,9 @@
 echo Removing existing installation..
+PREV_LOC=$(pwd)
 cd ~
 rm .puntrc
 rm -r .puntconf .punttools
+cd $PREV_LOC
 echo Copying folders and files...
 cp .puntrc ~
 cp -r .puntconf ~
